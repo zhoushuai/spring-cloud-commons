@@ -38,7 +38,7 @@ import org.springframework.cloud.client.loadbalancer.Response;
  */
 public class RandomLoadBalancer implements ReactorServiceInstanceLoadBalancer {
 
-	private static final Log log = LogFactory.getLog(RoundRobinLoadBalancer.class);
+	private static final Log log = LogFactory.getLog(RandomLoadBalancer.class);
 
 	final String serviceId;
 
